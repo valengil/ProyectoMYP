@@ -1,0 +1,74 @@
+<DOCTYPE!>
+<html lang="es">
+
+    <head>
+        <title>Manolo</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../estilos/Styles.css">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="">
+
+</head>
+
+<body>
+    <header>
+        <style>@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+        </style>
+        <div class="">
+        <img class="img-display"
+        src="../imagenes/Logo600x600px.png"  alt="Logo Manolo">
+        </img>
+    </div>
+    <a href="javascript:void(0)" class="icon" oneclick="myFunction()"><i class="Menu Bar"></i></a>
+        <nav id="menu_bar">
+            <ul>
+                <li><a href="./menu.html">Menú</a></li>
+                <li><a href="./takeaway.html">Take Away</a></li>
+                <li><a href="./sucursales.html">Sucursales</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        </header>
+        <section>
+        <article class="medio">
+            <div>
+                <img src="../imagenes/IndexManolo.png" alt="css imagen centrada" width="100%">
+            </div>
+            </article>
+        <article class="abajo">
+            <div>
+                <a href="#">
+                    <img src="../imagenes/ManoloIzquierda.png" alt="Submarino">
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="../imagenes/ManoloMedio.png" alt="Alfajor">
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="../imagenes/ManoloDerecha.png" alt="Sanguche">
+                </a>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <img src="../imagenes/Facebook.png" alt="Facebook">
+        <img src="../imagenes/Twitter.png" alt="Twitter">
+        <img src="../imagenes/Instagram.png" alt="Instagram">
+    </footer>
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_bar");
+          if (x.className === "barratop") {
+            x.className += " responsive";
+          } else {
+            x.className = "barratop";
+          }
+        }
+    </script>
+</body>
+</html>
